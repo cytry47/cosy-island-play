@@ -38,3 +38,9 @@ World (build step 1):
 | `models/enemies/fantasy_boar.glb` | Ruben's Tripo model (Drive `3D Assets/Cosy Island/Enemies/fantasy boar 3d model.glb`, 2026-11-06) | job 7 boar look (`render/combat.js` swapBoarGlb), trial |
 
 Terrain chunks, sea / river / lake / bog water, grass clumps, flowers, glow flowers, bridge stubs and the far island silhouettes are made in code (`src/render/terrain.js`, `water.js`, `fill.js`, `island.js`).
+
+Animations (2026-11-07):
+
+| File | Source | Used for |
+|---|---|---|
+| `models/moki-kaykit-clips.glb` | KayKit Character Animations 1.1 (Kay Lousberg, CC0; `Asset Library/kaykit-animations/`, Rig_Medium packs), retargeted onto the Moki armature by `tools/retarget_kaykit.py` (armature only, no mesh; 62 clips `Moki_<KayKitName>`) | Moki combat / bow / magic / tool / fishing / sit / lie / hit / death clips (not wired into the game yet) |
