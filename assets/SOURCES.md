@@ -35,5 +35,6 @@ World (build step 1):
 | `tex/stone_albedo.webp` | `pup-home/farm/tex/stone_albedo.webp` (Pupkins Hub) | terrain: cliffs, mountain, magic-isle moss (blended per vertex) |
 | `models/props_lod.glb` | `Games/Web/last-pup-standing/assets/props/forest/props_lod.glb` (LPS 25, simplified from Pupkins `props.glb`) | far LOD of tree_round, pine, bush, rocks fill |
 | `models/trees.glb` | `Asset Library/ours/pawty/trees.glb` (ours, accepted 2026-10-30) | fill trees: oak, birch, dead, pinesnow, blossom, mushroom a/b |
+| `models/enemies/fantasy_boar.glb` | Ruben's Tripo model (Drive `3D Assets/Cosy Island/Enemies/fantasy boar 3d model.glb`, 2026-11-06) | job 7 boar look (`render/combat.js` swapBoarGlb), trial |
 
 Terrain chunks, sea / river / lake / bog water, grass clumps, flowers, glow flowers, bridge stubs and the far island silhouettes are made in code (`src/render/terrain.js`, `water.js`, `fill.js`, `island.js`).
