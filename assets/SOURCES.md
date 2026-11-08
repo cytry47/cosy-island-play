@@ -44,3 +44,42 @@ Animations (2026-11-07):
 | File | Source | Used for |
 |---|---|---|
 | `models/moki-kaykit-clips.glb` | KayKit Character Animations 1.1 (Kay Lousberg, CC0; `Asset Library/kaykit-animations/`, Rig_Medium packs), retargeted onto the Moki armature by `tools/retarget_kaykit.py` (armature only, no mesh; 62 clips `Moki_<KayKitName>`) | Moki combat / bow / magic / tool / fishing / sit / lie / hit / death clips (not wired into the game yet) |
+
+Nature A (2026-11-07, Ruben's Tripo models; masters on Drive, read only):
+
+| File | Source | Used for |
+|---|---|---|
+| `models/nature/nature_a.glb` | Ruben's Tripo models, reduced by `tools/reduce_tripo.py` from the Drive masters listed below (Draco, JPEG 512 px base colour; nodes `<kind>_<n>` near + `<kind>_<n>_far` vertex-colour far LOD) | fill.js kinds oak, pine, pine_snow, dead, deadgrey, birch, blossom, giant_shroom, bush, rocks, boulder (3 variants each) |
+| ↳ node `oak_1` | Tripo U6 "dark green round tree": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_10266bc6-397c-4e79-8fc6-9f0e86f026b6.glb` | fill kind `oak` variant 1 |
+| ↳ node `oak_2` | Tripo U143 "dark oak tree": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_ef6cb455-6e6c-4ed6-97d5-1991e2b054e1.glb` | fill kind `oak` variant 2 |
+| ↳ node `oak_3` | Tripo U78 "dark green twin-crown tree": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_8266d850-04df-455b-a4d5-212cee56382f.glb` | fill kind `oak` variant 3 |
+| ↳ node `pine_1` | Tripo U21 "spruce pine tree": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_22fcd3ec-9428-43fa-8016-e7c1c6d6420f.glb` | fill kind `pine` variant 1 |
+| ↳ node `pine_2` | Tripo U106 "spruce pine tree": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_ad768096-2b54-46e5-b277-361ebd009d08.glb` | fill kind `pine` variant 2 |
+| ↳ node `pine_3` | Tripo U35 "pine tree": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_3cd7beb1-bd60-4c50-9a6a-cceee217b679.glb` | fill kind `pine` variant 3 |
+| ↳ node `pine_snow_1` | Tripo U102 "snowy pine tree": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_a7171493-8969-424a-afb3-c34778330866.glb` | fill kind `pine_snow` variant 1 |
+| ↳ node `pine_snow_2` | Tripo U104 "snowy pine tree": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_a990c8d3-c5a7-4278-8b49-a7e2785dc1c7.glb` | fill kind `pine_snow` variant 2 |
+| ↳ node `pine_snow_3` | Tripo U122 "snowy pine tree": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_cacfad4b-0d88-4f2a-af9f-743c8062c75e.glb` | fill kind `pine_snow` variant 3 |
+| ↳ node `dead_1` | Tripo U7 "gnarled bare twisted tree": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_10b6bbf2-454b-4e3c-a537-1c32df4abfc5.glb` | fill kind `dead` variant 1 |
+| ↳ node `dead_2` | Tripo U45 "bare branching dead tree": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_4f43dd93-45f4-4cd5-9e41-5b02bb9f648b.glb` | fill kind `dead` variant 2 |
+| ↳ node `dead_3` | Tripo U99 "gnarled dead tree": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_a2fbd731-b9ea-4ae2-b8c7-f9971eaac928.glb` | fill kind `dead` variant 3 |
+| ↳ node `deadgrey_1` | Tripo U38 "dead dark twisted spooky tree": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_41f46878-c32b-479e-9007-7d744f409bba.glb` | fill kind `deadgrey` variant 1 |
+| ↳ node `deadgrey_2` | Tripo U111 "dark dead tree": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_b57d8525-dbf7-4ae7-a4cd-f9beb440a77f.glb` | fill kind `deadgrey` variant 2 |
+| ↳ node `deadgrey_3` | Tripo U125 "dead tree with hollow": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_d1d3a34c-ddb5-4058-a23f-d7f5769ad762.glb` | fill kind `deadgrey` variant 3 |
+| ↳ node `birch_1` | Tripo U5 "birch tree": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_0ffaae06-04e6-4bda-a734-e6ec44ec65fe.glb` | fill kind `birch` variant 1 |
+| ↳ node `birch_2` | Tripo U81 "birch tree": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_85e2d198-20c6-4408-944a-0567639a81c6.glb` | fill kind `birch` variant 2 |
+| ↳ node `birch_3` | Tripo U57 "tall narrow birch-willow tree": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_5d93326a-1a83-4846-9291-f0898db4808e.glb` | fill kind `birch` variant 3 |
+| ↳ node `blossom_1` | Tripo U37 "pink blossom tree": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_3f29fced-2bee-4521-aa4e-dfefd505a416.glb` | fill kind `blossom` variant 1 |
+| ↳ node `blossom_2` | Tripo U28 "blue-violet tree with pink blossoms": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_2ec56a42-de9b-4482-ad58-88979ff21db5.glb` | fill kind `blossom` variant 2 |
+| ↳ node `blossom_3` | Tripo U129 "flowering tree with white blossoms and vines": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_d50873b3-3920-44fb-a26b-55ab8e3c89e2.glb` | fill kind `blossom` variant 3 |
+| ↳ node `giant_shroom_1` | Tripo U3 "teal spotted mushroom (mushroom)": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_09c8c3e2-41bb-40d8-acca-1e58ffd311c4.glb` | fill kind `giant_shroom` variant 1 |
+| ↳ node `giant_shroom_2` | Tripo U74 "green spotted mushroom (mushroom)": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_7c0b42de-13fe-4886-a690-863d87efb3e1.glb` | fill kind `giant_shroom` variant 2 |
+| ↳ node `giant_shroom_3` | Tripo U140 "pink flower-cap mushroom (mushroom)": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_eca8ebae-9043-4f51-a3df-da58bef8e393.glb` | fill kind `giant_shroom` variant 3 |
+| ↳ node `bush_1` | Tripo U2 "leafy green bush": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_04af0f5d-fb7b-4c23-882b-d443a59440e5.glb` | fill kind `bush` variant 1 |
+| ↳ node `bush_2` | Tripo U12 "broad-leaf dark green bush": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_1837ec05-f9a9-4f14-8111-d92840d6dfb8.glb` | fill kind `bush` variant 2 |
+| ↳ node `bush_3` | Tripo U48 "green leafy bush": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_52e8f565-1495-419e-a96a-af83c04e25aa.glb` | fill kind `bush` variant 3 |
+| ↳ node `rocks_1` | Tripo U16 "grey boulders with grass": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_1c38d9d4-8838-4281-96e6-ea5506918835.glb` | fill kind `rocks` variant 1 |
+| ↳ node `rocks_2` | Tripo U18 "stacked grey rocks": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_1ee90eea-5079-4009-8aba-b5da98b7c4a7.glb` | fill kind `rocks` variant 2 |
+| ↳ node `rocks_3` | Tripo U154 "stacked mossy rocks": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_fe2ad834-ce71-4bbf-89d6-d43e4fa09d11.glb` | fill kind `rocks` variant 3 |
+| ↳ node `boulder_1` | Tripo U23 "flat grey rock slabs": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_264d1d64-9f89-4fea-9698-f14edc96e92c.glb` | fill kind `boulder` variant 1 |
+| ↳ node `boulder_2` | Tripo U70 "mossy rock": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_773c7dbe-6e37-4f21-a16e-9b837e29b7c6.glb` | fill kind `boulder` variant 2 |
+| ↳ node `boulder_3` | Tripo U88 "tall mossy rock": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_8baaf1ba-01aa-4739-ac0c-09fd63aa0e3f.glb` | fill kind `boulder` variant 3 |
