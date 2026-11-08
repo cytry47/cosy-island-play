@@ -49,7 +49,7 @@ Nature A (2026-11-07, Ruben's Tripo models; masters on Drive, read only):
 
 | File | Source | Used for |
 |---|---|---|
-| `models/nature/nature_a.glb` | Ruben's Tripo models, reduced by `tools/reduce_tripo.py` from the Drive masters listed below (Draco, JPEG 512 px base colour; nodes `<kind>_<n>` near + `<kind>_<n>_far` vertex-colour far LOD) | fill.js kinds oak, pine, pine_snow, dead, deadgrey, birch, blossom, giant_shroom, bush, rocks, boulder (3 variants each) |
+| `models/nature/nature_a.glb` | Ruben's Tripo models, reduced by `tools/reduce_tripo.py` from the Drive masters listed below (Draco, JPEG 512 px base colour; nodes `<kind>_<n>` near + `<kind>_<n>_far` vertex-colour far LOD; far LODs rebuilt 2026-11-07 Nature B1 = decimated near mesh, trunk kept) | fill.js kinds oak, pine, pine_snow, dead, deadgrey, birch, blossom, giant_shroom, bush, rocks, boulder (3 variants each) |
 | ↳ node `oak_1` | Tripo U6 "dark green round tree": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_10266bc6-397c-4e79-8fc6-9f0e86f026b6.glb` | fill kind `oak` variant 1 |
 | ↳ node `oak_2` | Tripo U143 "dark oak tree": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_ef6cb455-6e6c-4ed6-97d5-1991e2b054e1.glb` | fill kind `oak` variant 2 |
 | ↳ node `oak_3` | Tripo U78 "dark green twin-crown tree": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_8266d850-04df-455b-a4d5-212cee56382f.glb` | fill kind `oak` variant 3 |
@@ -83,3 +83,33 @@ Nature A (2026-11-07, Ruben's Tripo models; masters on Drive, read only):
 | ↳ node `boulder_1` | Tripo U23 "flat grey rock slabs": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_264d1d64-9f89-4fea-9698-f14edc96e92c.glb` | fill kind `boulder` variant 1 |
 | ↳ node `boulder_2` | Tripo U70 "mossy rock": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_773c7dbe-6e37-4f21-a16e-9b837e29b7c6.glb` | fill kind `boulder` variant 2 |
 | ↳ node `boulder_3` | Tripo U88 "tall mossy rock": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_8baaf1ba-01aa-4739-ac0c-09fd63aa0e3f.glb` | fill kind `boulder` variant 3 |
+
+Nature B1 (2026-11-07, Ruben's Tripo models; masters on Drive, read only; job list `review/tripo_map/job_nature_b1.csv`):
+
+| File | Source | Used for |
+|---|---|---|
+| `models/nature/nature_b.glb` | Ruben's Tripo models, reduced by `tools/reduce_tripo.py` (Draco, JPEG base colour 512 px cactus / log / bleached / rotthorns with 1.5k near + 250 far; 256 px shroom / fern / lily / reed / glowshroom ~500 near, no far node) | fill.js kinds cactus, log, bleached, shroom, fern, lily, reed, rotthorns, glowshroom (2-3 variants each) |
+| ↳ node `cactus_1` | Tripo U150 "saguaro cactus": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_f35b8dcd-b9dd-4f7c-bffa-781faa9ebcfa.glb` | fill kind `cactus` variant 1 |
+| ↳ node `cactus_2` | Tripo U24 "prickly pear cactus with red flower": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_28f6a0d1-2aab-434d-abfe-23c79a11ee69.glb` | fill kind `cactus` variant 2 |
+| ↳ node `cactus_3` | Tripo U4 "barrel cactus with red flower": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_0a5dca9e-86b1-44a8-8923-97bc530cceed.glb` | fill kind `cactus` variant 3 |
+| ↳ node `log_1` | Tripo U79 "branch log with stubs": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_833eab30-f15b-4617-af9c-48aab80c81a3.glb` | fill kind `log` variant 1 |
+| ↳ node `log_2` | Tripo U126 "tan hollow log with small carving": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_d2332f61-36d5-4486-9a9e-cf088bcda62a.glb` | fill kind `log` variant 2 |
+| ↳ node `bleached_1` | Tripo U148 "beige rocks": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_f18e4065-a2f5-47c4-bee4-90404afdeff7.glb` | fill kind `bleached` variant 1 |
+| ↳ node `bleached_2` | Tripo U96 "red rock mesa hoodoo": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_9d5c2c6d-bfc2-45ed-970a-07cf6823e564.glb` | fill kind `bleached` variant 2 |
+| ↳ node `bleached_3` | Tripo U105 "red rock formation": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_ab3b9f9d-43d9-4f2e-bb8d-4d1c86dc5021.glb` | fill kind `bleached` variant 3 |
+| ↳ node `shroom_1` | Tripo U84 "brown cap mushrooms (mushroom)": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_88908bce-bb25-4ae8-ae9f-576847e0e121.glb` | fill kind `shroom` variant 1 |
+| ↳ node `shroom_2` | Tripo U115 "chanterelle cluster (mushroom)": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_b99773e1-4110-43fb-b5b9-df3dfed4c227.glb` | fill kind `shroom` variant 2 |
+| ↳ node `shroom_3` | Tripo U55 "orange mushroom cluster (mushroom)": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_5c6410ed-e9f7-4bf3-8b24-a2b18eeed6af.glb` | fill kind `shroom` variant 3 |
+| ↳ node `fern_1` | Tripo U30 "fern": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_2f6522b3-f51e-4e28-874d-a16625cadc50.glb` | fill kind `fern` variant 1 |
+| ↳ node `fern_2` | Tripo U53 "dark fern": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_5a7e5ff3-bad5-4445-87a4-164651e173f0.glb` | fill kind `fern` variant 2 |
+| ↳ node `lily_1` | Tripo U119 "plain lily pad": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_c15859d4-e458-4c7c-903b-ca10cf027777.glb` | fill kind `lily` variant 1 |
+| ↳ node `lily_2` | Tripo U15 "blue water lily": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_1c1a1829-43cb-4b60-87ef-49138728476c.glb` | fill kind `lily` variant 2 |
+| ↳ node `lily_3` | Tripo U127 "white lotus": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_d2e6f0ad-6f9d-4bb7-9162-5ddb81382e62.glb` | fill kind `lily` variant 3 |
+| ↳ node `reed_1` | Tripo U8 "cattails (water plant)": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_11adf54f-0f2f-4fe8-87d3-79dc9621a03a.glb` | fill kind `reed` variant 1 |
+| ↳ node `reed_2` | Tripo U43 "cattails (water plant)": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_480f8533-ce48-43a0-9b4b-097d7acf8827.glb` | fill kind `reed` variant 2 |
+| ↳ node `reed_3` | Tripo U71 "single cattail (water plant)": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_77a142f7-e904-477f-aeec-28ae01a2e3a4.glb` | fill kind `reed` variant 3 |
+| ↳ node `rotthorns_1` | Tripo U116 "thorny bramble bush": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_ba73fc7d-2fe3-4c0e-a810-ceb6679d02b0.glb` | fill kind `rotthorns` variant 1 |
+| ↳ node `rotthorns_2` | Tripo U91 "dry dead twig brush": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_96df3ed3-4ef5-4667-a004-dde3910a1ea2.glb` | fill kind `rotthorns` variant 2 |
+| ↳ node `glowshroom_1` | Tripo U68 "plain purple mushroom (mushroom)": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_70cb0f8a-e769-41dd-8684-b3cb4d95347c.glb` | fill kind `glowshroom` variant 1 |
+| ↳ node `glowshroom_2` | Tripo U95 "purple mushroom trio (mushroom)": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_9b7cfc15-bb2b-4e35-a10b-a96a65b3b9af.glb` | fill kind `glowshroom` variant 2 |
+| ↳ node `glowshroom_3` | Tripo U153 "purple spotted mushroom (mushroom)": `G:/My Drive/3D Assets/Downloads/Unsorted/tripo_convert_fa63915f-ca78-4fd6-ae6a-f5e3b34e1282.glb` | fill kind `glowshroom` variant 3 |
